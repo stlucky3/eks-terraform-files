@@ -22,7 +22,7 @@ Do the following at the CloudShell command line
 1.  Create a KUBECONFIG for `kubectl`
 
     ```bash
-    aws eks update-kubeconfig --region us-east-1 --name demo-eks
+    aws eks update-kubeconfig --region us-east-1 --name prod-eks
     ```
 
 1.  Join the worker nodes
